@@ -1,7 +1,7 @@
 FROM debian:jessie
 MAINTAINER Nathaniel Waisbrot <waisbrot@whoop.com>
 
-ENV ANSIBLE_VERSION 1.9.3
+ENV ANSIBLE_VERSION 2.0.0.2
 ENV ANSIBLE_CONFIG /ansible.cfg
 
 RUN apt-get update && \
